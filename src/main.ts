@@ -35,4 +35,4 @@ const fields=[
     "step": 1
   }
 ];
-worksheet({name:"Print Margin",fields,calculate,accent:"#ED8B86",motion:{"motif":"folio","color":"#ED8B86","shine":"#FFF0DB"}});
+worksheet({name:"Print Margin",fields,calculate,accent:"#ED8B86",motion:{enabled:false}});
