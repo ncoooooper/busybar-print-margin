@@ -10,7 +10,7 @@
   "frames": 54,
   "distinct_frames": 4,
   "exit": "App io.ncoooooper.printmargin exited: finished; heap peak 81.1 of 128 KiB",
-  "sha256": "398d305f446038c467923de13d11201a3484067e2587897d4a8960702b2e5936",
+  "sha256": "5070bf3c214d68334723569b803750636281549ac984e27ab87b2569a6dd1944",
   "display_test": {
     "firmware": "1.3.1",
     "input": "On-device controls",

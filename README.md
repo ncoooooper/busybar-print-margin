@@ -4,6 +4,20 @@ Preview crop and white borders when a photo is fitted to a paper size.
 
 Compare what the photo loses at the edges with the paper you would leave blank. The miniature uses different colors for discarded image and unprinted paper, so you can choose a print mode before sending the file.
 
+## Screen transitions
+
+Move between the filled frame and the whole-photo preview to see which edges fit.
+
+![Print Margin front display. Move between the filled frame and the whole-photo preview to see which edges fit.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Print Margin rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Preview a borderless fill
 
 1. Click to enter photo width and height in pixels, followed by paper width and height in millimeters. Turn to change the selected field, click to advance, and press **Start** to return.
@@ -34,6 +48,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)

@@ -2,5 +2,5 @@
   "category": "art",
   "short_description": "Preview crop and white borders when a photo is fitted to a paper size.",
   "description": "Preview crop and white borders when a photo is fitted to a paper size. A 1920×1080 photo fitted to 150×100 mm has 7.8 mm top and bottom borders.",
-  "changelog": "First public version."
+  "changelog": "New screen transitions and high-contrast LED previews."
 }
