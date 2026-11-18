@@ -1,0 +1,17 @@
+{
+  "id": "BB-053",
+  "source": "Local on-device computation using editable numeric inputs.",
+  "scenario": "A 1920×1080 photo fitted to 150×100 mm has 7.8 mm top and bottom borders.",
+  "keys": [
+    "up",
+    "down",
+    "ok",
+    "up",
+    "down",
+    "start"
+  ],
+  "frames": 54,
+  "distinct_frames": 21,
+  "exit": "App io.ncoooooper.printmargin exited: finished; heap peak 81.5 of 128 KiB",
+  "sha256": "c435b81ff3354624b6fec6d8081bcd55c58bd14581fb7da4b10d3684e503fe59"
+}

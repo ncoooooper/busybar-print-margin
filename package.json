@@ -2,7 +2,7 @@
   "name": "busybar-print-margin",
   "private": true,
   "version": "0.1.0",
-  "description": "Print Margin",
+  "description": "Preview crop and white borders when a photo is fitted to a paper size.",
   "author": "ncoooooper",
   "type": "module",
   "scripts": {
