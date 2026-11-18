@@ -2,14 +2,38 @@
 
 Preview crop and white borders when a photo is fitted to a paper size.
 
-A 1920×1080 photo fitted to 150×100 mm has 7.8 mm top and bottom borders. The miniature shows the cropped area in coral in Fill mode and the paper margins in cream in Fit mode.
+Compare what the photo loses at the edges with the paper you would leave blank. The miniature uses different colors for discarded image and unprinted paper, so you can choose a print mode before sending the file.
 
-Turn the wheel to browse results. Click to edit inputs, turn to change the selected value, click to select the next parameter, and press Start to return to results. Hold the wheel button in the editor to restore that parameter's starting value. Parameters persist on this device.
+## Preview a borderless fill
 
-Inputs: Photo width (1 to 16000 px), Photo height (1 to 16000 px), Paper width (1 to 1500 mm), Paper height (1 to 1500 mm).
+1. Click to enter photo width and height in pixels, followed by paper width and height in millimeters. Turn to change the selected field, click to advance, and press **Start** to return.
+2. On **Fill crop**, coral shows the part of the photograph outside the paper shape. Read the number of source pixels removed from each affected edge.
+3. Turn once for **Fit border** and compare the alternate preview.
 
-## Run locally
+![A coral crop preview of 150 px changes to a cream border preview of 7.8 mm.](media/guide/compare-crop-and-fit.gif)
 
-From this folder, run `~/.busy-emulator/bin/busy-emulator dev --once` with BUSY Bar Emulator open. Back exits.
+## Keep the whole photograph
 
-![BUSY Bar front display](screenshots/front-1.png)
+1. Read **Fit border** for the margin on each affected paper edge. The rear tells you whether the margins are horizontal or vertical.
+2. Turn back to **Fill crop** to check what you would sacrifice to remove those margins. Browse onward to print density for the fitted image.
+3. Change one paper dimension and compare the miniatures again. The app uses a centered layout.
+
+![The front switches between the coral fill crop and the cream paper margins.](media/guide/compare-the-paper-margins.gif)
+
+## Example from the emulator
+
+A 1920×1080 image fitted to 150×100 mm occupies 150×84.375 mm. The leftover height splits across two edges, about 7.8 mm each. Filling the same paper removes about 150 original pixels from each side.
+
+## Run in the emulator
+
+Open BUSY Bar Emulator. From this repository, run:
+
+```sh
+~/.busy-emulator/bin/busy-emulator dev --once
+```
+
+Press **Back** to exit.
+
+The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+
+[Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
