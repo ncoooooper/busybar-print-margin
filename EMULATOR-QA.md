@@ -2,6 +2,6 @@
 
 Local on-device computation using editable numeric inputs.
 
-A 1920×1080 photo fitted to 150×100 mm has 7.8 mm top and bottom borders.
+Compared the coral crop and cream paper margins. A 1920x1080 photograph fitted to 150x100 mm has a 7.8 mm border at top and bottom.
 
-21 distinct frames were recorded on firmware 1.3.1. App io.ncoooooper.printmargin exited: finished; heap peak 81.5 of 128 KiB. Screenshots are in screenshots/ and the recording is in media/.
+4 distinct frames were recorded on firmware 1.3.1. App io.ncoooooper.printmargin exited: finished; heap peak 81.1 of 128 KiB. Screenshots are in screenshots/ and the recording is in media/.

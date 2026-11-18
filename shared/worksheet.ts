@@ -1,7 +1,7 @@
 import {surface,wrap,persist,read,panel,label,rect,type Frame,type MotionOptions} from "./surface";
 
 export type Parameter={name:string;unit:string;initial:number;min:number;max:number;step:number;digits?:number;choices?:string[]};
-export type Result={name:string;value:string;detail:string[];fraction?:number};
+export type Result={name:string;value:string;detail:string[];fraction?:number;preview?:Frame};
 export type Worksheet={name:string;fields:Parameter[];calculate:(values:number[])=>Result[];motion:MotionOptions;accent:string};
 export function worksheet(def:Worksheet){
  const saved=read<number[]>("inputs",[]);
@@ -20,6 +20,7 @@ export function worksheet(def:Worksheet){
      const q=Math.max(0,Math.min(1,r.fraction));
      for(let i=0;i<6;i++)frame.push(rect("scale"+i,52+i*3,14-i,2,1+i,i<Math.round(q*6)?def.accent+"FF":"#333D45FF"));
    }
+   if(!editing && r.preview)frame.push(...r.preview);
    return frame.concat(panel(def.name.toUpperCase(),editing?[f.name+": "+number(f,values[field]),
        "Range "+number(f,f.min)+" - "+number(f,f.max),"Wheel: adjust amount","Click: next input","Start: see result",
        "Input "+(field+1)+"/"+def.fields.length]:

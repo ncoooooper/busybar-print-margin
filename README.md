@@ -2,7 +2,7 @@
 
 Preview crop and white borders when a photo is fitted to a paper size.
 
-A 1920×1080 photo fitted to 150×100 mm has 7.8 mm top and bottom borders.
+A 1920×1080 photo fitted to 150×100 mm has 7.8 mm top and bottom borders. The miniature shows the cropped area in coral in Fill mode and the paper margins in cream in Fit mode.
 
 Turn the wheel to browse results. Click to edit inputs, turn to change the selected value, click to select the next parameter, and press Start to return to results. Hold the wheel button in the editor to restore that parameter's starting value. Parameters persist on this device.
 
